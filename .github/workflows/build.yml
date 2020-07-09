@@ -1,8 +1,8 @@
 name: build
 
 on:
-  push:
-    branches: [master]
+  watch:
+    types: [started]
   #release:
     #types: [created]
 
